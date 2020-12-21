@@ -32,8 +32,6 @@ const Convert = ({language, text}) => {
 		};
 
 		doTranslation();
-
-		console.log('Nw language or text');
 	}, [language, debouncedText]);
 	return (
 		<div>
